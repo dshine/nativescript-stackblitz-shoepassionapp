@@ -1,0 +1,13 @@
+<!-- <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Shoepassion" icon="" />
+    <StackLayout class="p-4">
+        <Label text="Please tap me" class="text-3xl text-center" />
+        <Button text="TAP" tap="{{ onTap }}" class="-primary" />
+        <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" />
+        <WebView row="1" loaded="onWebViewLoaded" id="myWebView" src="https://shoepassion.de" /> 
+        <WebView src="htts://www.google.com" />
+    </StackLayout>
+</Page> -->
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+<WebView src="https://www.shoepassion.de" />
+</Page>
